@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="co.edu.uniquindio.android.electiva.campusuq.activity.activity.IdiomaActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logoland"
+        android:background="#088A29"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/idiomaes"
+        android:id="@+id/espa"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/idiomain"
+        android:id="@+id/ingle"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

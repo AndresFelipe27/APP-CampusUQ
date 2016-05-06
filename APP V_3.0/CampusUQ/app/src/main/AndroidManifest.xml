@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--   Universidad del Quindio(Armenia - Quindio) Ingenieria de Sistemas y Computacion
+  Desarrollo de aplicaciones para dispositivos Moviles - Electiva Profesional III
+
+  author Andres Felipe Perdomo Forero - Juan Jose Perdomo Forero
+
+  version 06/05/2016
+
+  El AndroidManifest.xml Es un archivo de configuración donde podemos aplicar las
+  configuraciones básicas de nuestra app, situado en la raiz del proyecto.
+
+  -->
+     <!--  Este el elemento raíz del manifiesto y sus dos atributos principales y obligatorios son:
+- xmlns:android: Define el espacio de nombres de Android y siempre debe de ser el mismo
+- package: El nombre del paquete define la aplicación y actúa como identificador único de la misma.
+
+  -->
+
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.edu.uniquindio.android.electiva.campusuq">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.activity.Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.activity.NoticiasActualesActivity" />
+        <activity android:name=".activity.activity.DetalleDeNoticiaActivity" />
+        <activity android:name=".activity.activity.SugerenciasActivity" />
+        <activity android:name=".activity.activity.IdiomaActivity" />
+        <activity android:name=".activity.activity.AyudaActivity" />
+        <activity android:name=".activity.activity.DirectorioActivity"></activity>
+    </application>
+
+</manifest>

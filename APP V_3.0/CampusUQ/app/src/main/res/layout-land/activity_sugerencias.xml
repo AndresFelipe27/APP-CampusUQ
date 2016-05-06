@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="co.edu.uniquindio.android.electiva.campusuq.activity.activity.SugerenciasActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140"
+        android:id="@+id/imageView"
+        android:src="@drawable/logoland"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sugerencia"
+        android:textColor="#088A29"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top|bottom"
+
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/nombre"
+                android:id="@+id/nombre"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNombre"
+                android:layout_gravity="center_horizontal"
+                android:background="#D8D8D8"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/asunto"
+                android:id="@+id/asunto"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAsunto"
+                android:layout_gravity="center_horizontal"
+                android:background="#D8D8D8"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sugerencia"
+            android:id="@+id/sugerencia"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/txtSugerencia"
+            android:background="#D8D8D8"
+            android:layout_weight="1.91" />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar"
+            android:id="@+id/btn_enviar"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
