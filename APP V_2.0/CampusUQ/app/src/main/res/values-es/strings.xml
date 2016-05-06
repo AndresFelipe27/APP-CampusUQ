@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CampusUQ</string>
+    <string name="nombre">Nombre</string>
+    <string name="asunto">Asunto</string>
+    <string name="sugerencia">Sugerencia</string>
+    <string name="enviar">Enviar</string>
+    <string name="idiomaes">Español</string>
+    <string name="idiomain">Ingles</string>
+    <string name="op">Opciones</string>
+
+    <string name="sug">SUGERENCIAS</string>
+    <string name="not">NOTICIAS</string>
+    <string name="ayu">AYUDA</string>
+    <string name="pag">PAGINA WEB</string>
+    <string name="idi">IDIOMA</string>
+    <string name="dir">DIRECTORIO</string>
+    <string name="btnact">Actualizar</string>
+
+    <string name="textoDirectorio">La seccion DIRECTORIO te mostrara una lista de los contactos y sus respectivos numeros telefonicos o extensiones de las dependencias de la Universidad del Quindio.</string>
+    <string name="textoNoticias">La seccion NOTICIAS te permite navegar entre las diferentes noticias y sucesos que acontecen en la Universidad del Quindio, si pulsas en cualquiera de las noticias de la lista, podras ver informacion mas detallada de la noticia y compartirla en tus redes sociales.</string>
+    <string name="textoSugerencias">La seccion SUGERENCIAS te permite enviar todo tipo de sugerencias y consejos que permitan mejorar la calidad de la Universidad, asi que animate y escribenos.</string>
+    <string name="textoIdioma">La seccion IDIOMA te permite cambiar el lenguaje de la aplicacion, los lenguajes disponibles por el momento son ingles y español.</string>
+    <string name="textoWeb">La seccion PAGINA WEB te redirige a la pagina web oficial de la universidad del Quindio, donde podras encontrar mucho mas contenido.</string>
+
+    <string name="agregar_pelicula">agregar_pelicula</string>
+    <string name="modificar_posicion">modificar_posicion</string>
+    <string name="eliminar_pelicula">eliminar_pelicula</string>
+    <string name="cambiar_idioma">Cambiar Idioma</string>
+    <string name="opc">Opciones</string>
+    <string name="titudetnot">Conferencia administrati...</string>
+
+    <string-array name="Dependencias">
+        <item>Ingenieria</item>
+        <item>Administracion</item>
+        <item>Medicina</item>
+
+    </string-array>
+
+    <string-array name="Contactos">
+        <item>Andres      7390209</item>
+        <item>Juan     314584748</item>
+        <item>Juliana   369852147</item>
+
+    </string-array>
+
+    <string name="titulo">Título</string>
+    <string name="year">Año</string>
+    <string name="url">Url</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="aceptar">Aceptar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento blanco</string>
+
+    <string name="texto_detalle_de_pelicula">Con la visita de destacados
+        ingenieros graduados del programa de Ingeniería electrónica de la
+        Universidad del Quindío, en el marco de los procesos de Autoevaluación
+        y el Proyecto Cultural promovidos des.</string>
+    <string name="descripcion_imagen_detalle">descripcion_imagen_detalle</string>
+    <string name="ir_a_trailer">ir_a_trailer</string>
+</resources>
