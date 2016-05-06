@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_light_background">
+
+    <ImageView
+        android:id="@+id/imagen_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/descripcion_imagen_detalle"
+        android:src="@drawable/noticialar" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/numid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:text="#12"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titulo_de_detalle_pelicula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:text="Conferencia administrati..."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descripcion_de_detalle_pelicula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:maxLines="30"
+                android:text="@string/texto_detalle_de_pelicula"
+                android:textSize="@dimen/detalle_texto_descripción"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_ir_a_trailes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ir_a_trailer"
+                android:src="@drawable/twt"
+                android:background="@color/cardview_light_background"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageButton
+                android:layout_width="158dp"
+                android:layout_height="74dp"
+                android:src="@drawable/fb"
+                android:id="@+id/imageButton"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/cardview_light_background"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

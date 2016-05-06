@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CampusUQ</string>
+    <string name="nombre">Name</string>
+    <string name="asunto">Subject</string>
+    <string name="sugerencia">Suggestion</string>
+    <string name="enviar">Send</string>
+    <string name="idiomaes">Spanish</string>
+    <string name="idiomain">English</string>
+    <string name="op">Options</string>
+    <string name="btnact">Update</string>
+
+    <string name="sug">SUBJECTS</string>
+    <string name="not">NEWS</string>
+    <string name="ayu">HELP</string>
+    <string name="pag">WEB PAGE</string>
+    <string name="idi">LANGUAGE</string>
+    <string name="dir">DIRECTORY</string>
+
+    <string name="textoDirectorio">The DIRECTORY section will show a list of contacts and their numbers telephonic or extensions of the premises of the University of Quindio.</string>
+    <string name="textoNoticias">NEWS section allows you to navigate between different news and events that happen at the University of Quindio, if you click on any of the news from the list, you will see more detailed information on the news and share it on your social networks.</string>
+    <string name="textoSugerencias">The Tips section allows you to send all kinds of hints and tips to improve the quality of the University, so go and write us.</string>
+    <string name="textoIdioma">The Language section allows you to change the language of the application, the languages available at the moment are English and Spanish.</string>
+    <string name="textoWeb">The WEB page redirects you to the official website of the University of Quindio, which you can find much more content.</string>
+
+    <string name="agregar_pelicula">agregar_pelicula</string>
+    <string name="modificar_posicion">modificar_posicion</string>
+    <string name="eliminar_pelicula">eliminar_pelicula</string>
+    <string name="cambiar_idioma">Cambiar Idioma</string>
+
+
+    <string name="titulo">Título</string>
+    <string name="year">Año</string>
+    <string name="url">Url</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="aceptar">Aceptar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento blanco</string>
+
+    <string name="texto_detalle_de_pelicula">With the visit of prominent
+         Program graduates electronic engineers Engineering
+         University of Quindio, within the framework of the process of Self-Assessment
+         and promoted des Cultural Project.
+        Chat conversation is finished</string>
+    <string name="descripcion_imagen_detalle">descripcion_imagen_detalle</string>
+    <string name="ir_a_trailer">ir_a_trailer</string>
+</resources>
